@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KoaCon - Kokkolalainen cosplay-, anime- ja pelitapahtuma</title>
+    <link rel="stylesheet" href="koacon_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="fade-in">
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="Etusivu"><img src="logo.png" alt="KoaCon" width="70"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="Etusivu">Etusivu</a></li>
+                    <li><a href="Aikataulu">Aikataulu</a></li>
+                    <li><a href="Hakemukset">Hakemukset</a></li>
+                    <li><a href="#">Conin kartta</a></li>
+                    <li><a href="Etusivu#contact">Yhteystiedot</a></li>
+                    <li><a href="järjestyssäännöt#contact">Järjestyssäännöt</a></li>
+                    
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+     <!-- Location Section -->
+     <section id="location" class="location-section top-margin">
+        <div class="container">
+            <div class="section-header">
+                <span class="pixel-font">Conin kartta</span>
+                <h2>Tulossa pian</h2>
+                <div class="underline"></div>
+            </div>
+
+
+                <div class="location-building">
+                    <!--<h3>Tila</h3> -->
+                    <!--<div class="underline"></div>
+                    <div class="location-building-map">
+                        <center>
+                        <img src="kartta final.png" alt="Tapahtuma Kartta">
+                        </center>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#"><span class="logo-text"><img src="logo.png" alt="KoaCon" width="60"></span></a>
+                    <p>Kokkolalainen cosplay-, anime- ja pelitapahtuma</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-link-group">
+                        <h3>Navigointi</h3>
+                        <ul>
+                            <li><a href="Etusivu">Etusivu</a></li>
+                            <li><a href="Aikataulu">Aikataulu</a></li>
+                            <li><a href="hae_myyjaksi">Hakemukset</a></li>
+                            <li><a href="conin_kartta">Conin kartta</a></li>
+                            <li><a href="Etusivu#contact">Yhteystiedot</a></li>
+                            <li><a href="järjestyssäännöt">Järjestyssäännöt</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h3>Yhteystiedot</h3>
+                        <ul>
+                            <li><a href="mailto:koacongroup@gmail.com">koacongroup@gmail.com</a></li>
+                            <li><a href="tel:+358406201499">+358 40 620 1499</a></li>
+                            <!--<li>Kokkola Kampushalli</li>
+                            <li>Talonpojankatu 2B, 67100 Kokkola</li>-->
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h3>Seuraa meitä</h3>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/koa.con" class="social-link">Instagram</a>
+                            <a href="https://www.tiktok.com/@koacon_?lang=en" class="social-link">TikTok</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KoaCon. Kaikki oikeudet pidätetään.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Basic menu toggle functionality for mobile
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                    menuToggle.classList.toggle('active');
+                });
+            }
+        });
+
+    document.querySelectorAll('.transition-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const href = this.getAttribute('href');
+
+    document.body.classList.add('fade-out');
+
+    setTimeout(() => {
+      window.location.href = href;
+    }, 300); // Match the duration in CSS
+  });
+});
+    </script>
+</body>
+</html>
+
+
+
+
+
+
