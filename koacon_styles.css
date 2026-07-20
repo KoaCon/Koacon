@@ -56,7 +56,7 @@ body.fade-in {
 
 a {
     text-decoration: none;
-    color: var(--primary-red);
+    color: var(--accent-pink);
     transition: var(--transition);
 }
 
@@ -166,9 +166,9 @@ margin-bottom: 3px;
 }
 
 .underline {
-    width: 120px;
+    width: 60px;
     height: 4px;
-    background: var(--primary-pink);
+    background: var(--primary-red);
     margin: 0 auto;
 }
 
@@ -599,7 +599,7 @@ margin-bottom: 3px;
 .timeline-time {
     width: 100px;
     font-family: 'Garamond';
-    font-size: 14px;
+    font-size: 20px;
     color: white;
     text-align: center;
     padding-top: 5px;
