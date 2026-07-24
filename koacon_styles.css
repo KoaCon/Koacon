@@ -150,7 +150,15 @@ img {
     font-weight: 700;
     color: var(--text-dark);
     margin-bottom: 10px;
-    font-family: 'Bangers', cursive;
+    font-family: 'sans-serif', Arial  ;
+    letter-spacing: 1px;
+}
+.section-header h8 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--accent-pink);
+    margin-bottom: 10px;
+    font-family: 'sans-serif', Arial  ;
     letter-spacing: 1px;
 }
 h5 {
@@ -1236,7 +1244,7 @@ small {
 
     .section-header h2 {
         font-size: 28px;
-		text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     }
 
     .about-features {
@@ -1266,4 +1274,35 @@ small {
     .checkbox-group, .radio-group {
         grid-template-columns: 1fr;
     }
+	
+  }
 }
+  
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: black;
+      background: #0d0d14;
+     
+      text-align: center;
+    }
+    .card-container {
+      display:flex;
+	  align-items:center;
+	  justify-content:center;
+	  flex-wrap:wrap;
+    }
+    .card {
+		
+		width:320px;
+      padding: 1.5em;
+      border: 1px solid #4b525c;
+      border-radius: 10px;
+      background: #222;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+		margin:20px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
