@@ -881,12 +881,12 @@ margin-bottom: 3px;
 }
 
 .location-building{
-  
+    margin-top: 0px;
     text-align: center;
     font-style: normal;
     background: rgba(255, 255, 255, 0.05);
-    
-   
+    border-radius: 0px;
+    padding: 0px;
 }
 
 .location-building h3{
