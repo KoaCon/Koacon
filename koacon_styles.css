@@ -162,15 +162,15 @@ img {
     letter-spacing: 1px;
 }
 h5 {
-font-size: 4vh;
-font-weight: bold;
+font-size: 4.3vh;
+
 color: (white);
 font-family: 'Monaco', monospace;
 letter-spacing: 1px;
 margin-bottom: 3px;
--webkit-text-stroke-width: 1px;
+-webkit-text-stroke-width: 0.8px;
 -webkit-text-stroke-color: black;
- text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+ 
 }
 
 .underline {
@@ -324,7 +324,7 @@ margin-bottom: 3px;
 }
 
 .hero-subtitle {
-    font-size: 30px;
+    font-size: 32px;
 	margin-top: 20px;
     margin-bottom: 5px;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
